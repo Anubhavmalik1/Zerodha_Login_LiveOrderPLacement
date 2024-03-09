@@ -1,8 +1,6 @@
 
 # Python Code for Kite Zerodha Platform
 
-* __Author: [TradeViaPython](https://www.youtube.com/c/TradeViaPython)__
-
 ## Installation
 
 How to use:
@@ -14,7 +12,7 @@ How to use:
 
 ### Prerequisites
 
-Python >=3.7
+Python using 3.12.2
 
 ### Python Code Example
 Import
