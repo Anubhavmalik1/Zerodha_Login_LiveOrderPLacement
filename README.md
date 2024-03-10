@@ -1,15 +1,6 @@
 
 # Python Code for Kite Zerodha Platform
 
-## Installation
-
-How to use:
-
-```
-# Download the 'kite_trade.py' file
-# keep the file in same directory where your code file is stored
-```
-
 ### Prerequisites
 
 Python using 3.12.2
