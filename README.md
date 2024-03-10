@@ -44,7 +44,6 @@ print(kite.margins())
 print(kite.orders())
 print(kite.positions())
 ```
-![ss](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/5a7cdeed-c523-4c83-9aeb-189a6ad7d743)
 ```
 # Get instrument or exchange
 print(kite.instruments())
