@@ -34,7 +34,7 @@ enctoken = ""
 kite = KiteApp(enctoken=enctoken)
 ```
 
-![ss](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/a20e7ed1-d51a-4bef-9447-36a831949cd6)
+![Screenshot 2024-03-10 230443](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/bed9498a-6673-4b8b-b6ce-8198eca4287f)
 
 
 Other Methods
@@ -55,7 +55,8 @@ print(kite.ltp("NSE:RELIANCE"))
 print(kite.ltp(["NSE:NIFTY 50", "NSE:NIFTY BANK"]))
 print(kite.quote(["NSE:NIFTY BANK", "NSE:ACC"]))
 ```
-![Screenshot 2024-03-10 220407](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/e52d0720-ac4b-426f-bbb0-22eb159c9cf9)
+
+![Screenshot 2024-03-10 230553](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/30201f3f-19b6-4c69-b901-d46a56eecef7)
 
 ```
 # Get Historical Data - Taken example is of Reliance as instrument_token =  738561
@@ -66,7 +67,9 @@ to_datetime = datetime.datetime.now()
 interval = "5minute"
 print(kite.historical_data(instrument_token, from_datetime, to_datetime, interval, continuous=False, oi=False))
 ```
-![Screenshot 2024-03-09 070852](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/6411ac18-2a3b-44f1-9658-e096e9a5fb0b)
+
+![Screenshot 2024-03-10 230722](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/06db6bf2-a3e2-466b-840c-648df05cc645)
+
 ```
 # Place Order
 order = kite.place_order(variety=kite.VARIETY_AMO,
@@ -87,9 +90,10 @@ order = kite.place_order(variety=kite.VARIETY_AMO,
 
 print(order)
 ```
-![Screenshot 2024-03-09 071148](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/ce3f4b12-415d-4ee2-aebb-4d9fd43ce16a)
+![Screenshot 2024-03-10 230855](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/84da0449-2392-472f-b24f-ee9f13a38493)
 
-![p](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/270510c4-f3f4-4b70-bc08-9dd165b72d6f)
+![Screenshot 2024-03-10 230947](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/70f3b4a6-3640-47e0-88c2-a2a63422d3a3)
+
 ```
 # Modify order
 kite.modify_order(variety=kite.VARIETY_AMO,
@@ -107,7 +111,9 @@ kite.cancel_order(variety=kite.VARIETY_AMO,
                   order_id="order_id",
                   parent_order_id=None)
 ```
-![Screenshot 2024-03-09 071633](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/e3efce41-aa05-48b6-a938-b54df1a28ee1)
-![Screenshot 2024-03-09 071741](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/c4ea9dc3-2127-4f63-a2a2-31845223047d)
+![Screenshot 2024-03-10 231236](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/1061ddf3-6fba-48ca-97d9-bb1e0ce316d5)
+
+![Screenshot 2024-03-10 231323](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/15557e3d-4af9-4756-8f69-2530857c94cf)
+
 ```
 
