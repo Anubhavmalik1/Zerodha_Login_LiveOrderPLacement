@@ -115,5 +115,4 @@ kite.cancel_order(variety=kite.VARIETY_AMO,
 
 ![Screenshot 2024-03-10 231323](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/15557e3d-4af9-4756-8f69-2530857c94cf)
 
-```
 
