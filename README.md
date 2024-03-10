@@ -55,7 +55,8 @@ print(kite.ltp("NSE:RELIANCE"))
 print(kite.ltp(["NSE:NIFTY 50", "NSE:NIFTY BANK"]))
 print(kite.quote(["NSE:NIFTY BANK", "NSE:ACC"]))
 ```
-![Screenshot 2024-03-09 070233](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/7f4d9939-f7bb-4e47-8b10-071e1cebaacb)
+![Screenshot 2024-03-10 220407](https://github.com/Anubhavmalik1/Zerodha_Login_LiveOrderPLacement/assets/147001039/e52d0720-ac4b-426f-bbb0-22eb159c9cf9)
+
 ```
 # Get Historical Data - Taken example is of Reliance as instrument_token =  738561
 import datetime
